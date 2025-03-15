@@ -40,10 +40,7 @@
     <NavHeadin />
 
     {#if $scrollPercent >= 20}
-        <div class="w-full h-auto sm:hidden">
             <Heading price={price}/>
-        </div>
-
     {/if}
 
     <ProductDetailExtract price={price} />
