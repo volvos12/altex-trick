@@ -5,7 +5,7 @@
     export let productCode: string = '';
 </script>
 
-<nav class="flex items-center px-0 py-3.5 text-sm leading-5">
+<nav class="items-center px-0 py-3.5 text-sm leading-5 hidden md:flex">
     {#each items as item, index}
         {#if !item.isActive}
             <a href={item.link} class="text-rose-700 no-underline">{item.label}</a>
