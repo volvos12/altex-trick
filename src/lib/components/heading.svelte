@@ -9,7 +9,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
 
-<section class="animation w-full bg-white fixed top-0 z-[100]">
+<section class="animation w-full bg-white fixed top-0 z-[100] hidden lg:block">
     <header class="flex justify-center px-5 py-2.5 h-20">
         <div class="flex relative justify-between items-center w-full max-w-screen-xl max-md:px-4 max-md:py-0">
             <Productinfo
